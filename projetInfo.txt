@@ -1,0 +1,23 @@
+
+Nombre de classe :7
+nombre de methode: 8
+Nombre de classe :7
+nombre de methode: 8
+Nombre de classe :7
+nombre de methode: Nombre de classe :7
+nombre de methode: 8
+Nombre de classe :7
+nombre de methode:   35 application.h
+  19 bulletin.h
+  23 etudiant.h
+  26 evaluation.h
+  20 matiere.h
+  21 note.h
+  43 section.h
+ 118 application.cpp
+   7 main.cpp
+  10 section.cpp
+ 322 total
+Nombre de classe :7
+nombre de methode: Nombre de classe :7
+nombre de methode: 

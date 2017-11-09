@@ -1,0 +1,341 @@
+\hypertarget{class_section}{\section{Référence de la classe Section}
+\label{class_section}\index{Section@{Section}}
+}
+
+
+{\ttfamily \#include $<$section.\+h$>$}
+
+
+
+Graphe de collaboration de Section\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=166pt]{class_section__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_section_abce12f33b3d02ae26aa071ee084379fb}{Section} (string \hyperlink{class_section_a4bb51bd5ac41f66e9935f8e1e46e1c45}{section\+Nom}, \hyperlink{class_application}{Application} $\ast$)
+\begin{DoxyCompactList}\small\item\em constructeur de section creer un constructeur avec le nom de la section \end{DoxyCompactList}\item 
+void \hyperlink{class_section_ad8bb64a516f00af11ec88262133936ff}{afficher\+Section} ()
+\begin{DoxyCompactList}\small\item\em affichage section \end{DoxyCompactList}\item 
+void \hyperlink{class_section_af9bc407774a67c0ce65d831fcf2005b2}{retour\+Application} ()
+\begin{DoxyCompactList}\small\item\em retour \end{DoxyCompactList}\item 
+string \hyperlink{class_section_a00b708087544f4830f3d8e115753e028}{get\+Section\+Nom} ()
+\begin{DoxyCompactList}\small\item\em accesseur de section nom \end{DoxyCompactList}\item 
+void \hyperlink{class_section_ad60532fac7868faad0b9b6ae413c860d}{run} ()
+\begin{DoxyCompactList}\small\item\em execution \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_section_a648fe297e7ba1d421517edfd50114bba}{affichage\+Du\+Choix\+Du\+Menu\+Secondaire} ()
+\begin{DoxyCompactList}\small\item\em affichage du menu \end{DoxyCompactList}\item 
+char \hyperlink{class_section_a1cfe7f586b0aa72fbdb4c66e3e760328}{saisie\+Controlee\+Du\+Choix\+Utilisateur\+Secondaire} ()
+\begin{DoxyCompactList}\small\item\em controle saisie du choix \end{DoxyCompactList}\item 
+void \hyperlink{class_section_a18d873239d981624af69451f4e804543}{choix\+Menu\+Application\+Secondaire} (char choix\+Util)
+\begin{DoxyCompactList}\small\item\em choix utilisateur \end{DoxyCompactList}\item 
+void \hyperlink{class_section_aca817449026803dfddfe01fb76b2a4d6}{ajouter\+Etudiant} ()
+\begin{DoxyCompactList}\small\item\em creation etudiant \end{DoxyCompactList}\item 
+void \hyperlink{class_section_a762dcfde40a8821f21324d1ade96999b}{afficher\+Etudiant} ()
+\begin{DoxyCompactList}\small\item\em afficher etudiant \end{DoxyCompactList}\item 
+void \hyperlink{class_section_a1c211fc04d2670f4d06623b3484e1456}{affecter\+Une\+Matiere} ()
+\begin{DoxyCompactList}\small\item\em affectation d'une matiere \end{DoxyCompactList}\item 
+void \hyperlink{class_section_a1debe78679287f470ce2ae2f8c5fd26d}{afficher\+Matiere} ()
+\begin{DoxyCompactList}\small\item\em affichage matiere section \end{DoxyCompactList}\item 
+void \hyperlink{class_section_a5947f98d44574643e111cc83c18a55c4}{ajouter\+Une\+Evaluation} ()
+\begin{DoxyCompactList}\small\item\em creer une evaluation \end{DoxyCompactList}\item 
+void \hyperlink{class_section_a7fa8e1804fc1643184330429cebc45af}{afficher\+Une\+Evaluation} ()
+\begin{DoxyCompactList}\small\item\em afficher les evaluations \end{DoxyCompactList}\item 
+void \hyperlink{class_section_abfb639b9563b4f0b00f9f8cdc6e28e65}{creer\+Tous\+Les\+Bulletins} ()
+\begin{DoxyCompactList}\small\item\em creation bulletin \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \hyperlink{class_matiere}{Matiere} $\ast$ $>$ \hyperlink{class_section_ac7febeae3b093a5cac9e9df3a7474fe4}{vect\+Les\+Matieres}
+\begin{DoxyCompactList}\small\item\em vecteur matiere \end{DoxyCompactList}\item 
+vector$<$ int $>$ \hyperlink{class_section_a189240ee9f2d58c63be99a7c65e9ec4f}{vect\+Les\+Coeff}
+\begin{DoxyCompactList}\small\item\em coeff \end{DoxyCompactList}\item 
+string \hyperlink{class_section_a4bb51bd5ac41f66e9935f8e1e46e1c45}{section\+Nom}
+\begin{DoxyCompactList}\small\item\em nom de la section \end{DoxyCompactList}\item 
+\hyperlink{class_application}{Application} $\ast$ \hyperlink{class_section_a387b69bedffb009e38d88cb272030bd4}{mon\+Applic}
+\begin{DoxyCompactList}\small\item\em pointeur de l'application \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{class_evaluation}{Evaluation} $>$ \hyperlink{class_section_a2c07b1c98085111f120142cbe087fd36}{vect\+Evaluation}
+\begin{DoxyCompactList}\small\item\em vecteur evaluation permet de recupere les differentes evaluations qui ont été faites \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{class_etudiant}{Etudiant} $>$ \hyperlink{class_section_a878e894d29cdbecf573949260a3be53e}{vect\+Etudiant}
+\begin{DoxyCompactList}\small\item\em vecteur etudiant permet de recuperer les etudiants qui sont dans la sections \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\hypertarget{class_section_abce12f33b3d02ae26aa071ee084379fb}{\index{Section@{Section}!Section@{Section}}
+\index{Section@{Section}!Section@{Section}}
+\subsubsection[{Section}]{\setlength{\rightskip}{0pt plus 5cm}Section\+::\+Section (
+\begin{DoxyParamCaption}
+\item[{string}]{section\+Nom, }
+\item[{{\bf Application} $\ast$}]{l\+Applic}
+\end{DoxyParamCaption}
+)}}\label{class_section_abce12f33b3d02ae26aa071ee084379fb}
+
+
+constructeur de section creer un constructeur avec le nom de la section 
+
+
+
+\subsection{Documentation des fonctions membres}
+\hypertarget{class_section_a1c211fc04d2670f4d06623b3484e1456}{\index{Section@{Section}!affecter\+Une\+Matiere@{affecter\+Une\+Matiere}}
+\index{affecter\+Une\+Matiere@{affecter\+Une\+Matiere}!Section@{Section}}
+\subsubsection[{affecter\+Une\+Matiere}]{\setlength{\rightskip}{0pt plus 5cm}void Section\+::affecter\+Une\+Matiere (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_section_a1c211fc04d2670f4d06623b3484e1456}
+
+
+affectation d'une matiere 
+
+\begin{DoxyReturn}{Renvoie}
+permet d'affecter les matieres que la section comporte 
+\end{DoxyReturn}
+\hypertarget{class_section_a648fe297e7ba1d421517edfd50114bba}{\index{Section@{Section}!affichage\+Du\+Choix\+Du\+Menu\+Secondaire@{affichage\+Du\+Choix\+Du\+Menu\+Secondaire}}
+\index{affichage\+Du\+Choix\+Du\+Menu\+Secondaire@{affichage\+Du\+Choix\+Du\+Menu\+Secondaire}!Section@{Section}}
+\subsubsection[{affichage\+Du\+Choix\+Du\+Menu\+Secondaire}]{\setlength{\rightskip}{0pt plus 5cm}void Section\+::affichage\+Du\+Choix\+Du\+Menu\+Secondaire (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_section_a648fe297e7ba1d421517edfd50114bba}
+
+
+affichage du menu 
+
+\begin{DoxyReturn}{Renvoie}
+affiche un menu de notre section avec les differentes possibilité 
+\end{DoxyReturn}
+\hypertarget{class_section_a762dcfde40a8821f21324d1ade96999b}{\index{Section@{Section}!afficher\+Etudiant@{afficher\+Etudiant}}
+\index{afficher\+Etudiant@{afficher\+Etudiant}!Section@{Section}}
+\subsubsection[{afficher\+Etudiant}]{\setlength{\rightskip}{0pt plus 5cm}void Section\+::afficher\+Etudiant (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_section_a762dcfde40a8821f21324d1ade96999b}
+
+
+afficher etudiant 
+
+\begin{DoxyReturn}{Renvoie}
+permet d'afficher la liste complete des etudiants de notre section 
+\end{DoxyReturn}
+\hypertarget{class_section_a1debe78679287f470ce2ae2f8c5fd26d}{\index{Section@{Section}!afficher\+Matiere@{afficher\+Matiere}}
+\index{afficher\+Matiere@{afficher\+Matiere}!Section@{Section}}
+\subsubsection[{afficher\+Matiere}]{\setlength{\rightskip}{0pt plus 5cm}void Section\+::afficher\+Matiere (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_section_a1debe78679287f470ce2ae2f8c5fd26d}
+
+
+affichage matiere section 
+
+\begin{DoxyReturn}{Renvoie}
+va affichger les matieres que la section comporte ainsi que le coefficient que la matiere comporte 
+\end{DoxyReturn}
+\hypertarget{class_section_ad8bb64a516f00af11ec88262133936ff}{\index{Section@{Section}!afficher\+Section@{afficher\+Section}}
+\index{afficher\+Section@{afficher\+Section}!Section@{Section}}
+\subsubsection[{afficher\+Section}]{\setlength{\rightskip}{0pt plus 5cm}void Section\+::afficher\+Section (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_section_ad8bb64a516f00af11ec88262133936ff}
+
+
+affichage section 
+
+\begin{DoxyReturn}{Renvoie}
+permet d'afficher les differentes sections que l'on dispose 
+\end{DoxyReturn}
+\hypertarget{class_section_a7fa8e1804fc1643184330429cebc45af}{\index{Section@{Section}!afficher\+Une\+Evaluation@{afficher\+Une\+Evaluation}}
+\index{afficher\+Une\+Evaluation@{afficher\+Une\+Evaluation}!Section@{Section}}
+\subsubsection[{afficher\+Une\+Evaluation}]{\setlength{\rightskip}{0pt plus 5cm}void Section\+::afficher\+Une\+Evaluation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_section_a7fa8e1804fc1643184330429cebc45af}
+
+
+afficher les evaluations 
+
+\begin{DoxyReturn}{Renvoie}
+affichage des differentes evaluations que la section a eu ainsi que la moyenne de classe sur cette evaluations 
+\end{DoxyReturn}
+\hypertarget{class_section_aca817449026803dfddfe01fb76b2a4d6}{\index{Section@{Section}!ajouter\+Etudiant@{ajouter\+Etudiant}}
+\index{ajouter\+Etudiant@{ajouter\+Etudiant}!Section@{Section}}
+\subsubsection[{ajouter\+Etudiant}]{\setlength{\rightskip}{0pt plus 5cm}void Section\+::ajouter\+Etudiant (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_section_aca817449026803dfddfe01fb76b2a4d6}
+
+
+creation etudiant 
+
+\begin{DoxyReturn}{Renvoie}
+permet de rajouter un nouvelle etudiant a la section 
+\end{DoxyReturn}
+\hypertarget{class_section_a5947f98d44574643e111cc83c18a55c4}{\index{Section@{Section}!ajouter\+Une\+Evaluation@{ajouter\+Une\+Evaluation}}
+\index{ajouter\+Une\+Evaluation@{ajouter\+Une\+Evaluation}!Section@{Section}}
+\subsubsection[{ajouter\+Une\+Evaluation}]{\setlength{\rightskip}{0pt plus 5cm}void Section\+::ajouter\+Une\+Evaluation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_section_a5947f98d44574643e111cc83c18a55c4}
+
+
+creer une evaluation 
+
+\begin{DoxyReturn}{Renvoie}
+permet de creer une evaluataion dans une matiere precise pour tous les eleves de la section 
+\end{DoxyReturn}
+\hypertarget{class_section_a18d873239d981624af69451f4e804543}{\index{Section@{Section}!choix\+Menu\+Application\+Secondaire@{choix\+Menu\+Application\+Secondaire}}
+\index{choix\+Menu\+Application\+Secondaire@{choix\+Menu\+Application\+Secondaire}!Section@{Section}}
+\subsubsection[{choix\+Menu\+Application\+Secondaire}]{\setlength{\rightskip}{0pt plus 5cm}void Section\+::choix\+Menu\+Application\+Secondaire (
+\begin{DoxyParamCaption}
+\item[{char}]{choix\+Util}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_section_a18d873239d981624af69451f4e804543}
+
+
+choix utilisateur 
+
+\begin{DoxyReturn}{Renvoie}
+permet d'executer le choix que l'utilisateur a choisi 
+\end{DoxyReturn}
+\hypertarget{class_section_abfb639b9563b4f0b00f9f8cdc6e28e65}{\index{Section@{Section}!creer\+Tous\+Les\+Bulletins@{creer\+Tous\+Les\+Bulletins}}
+\index{creer\+Tous\+Les\+Bulletins@{creer\+Tous\+Les\+Bulletins}!Section@{Section}}
+\subsubsection[{creer\+Tous\+Les\+Bulletins}]{\setlength{\rightskip}{0pt plus 5cm}void Section\+::creer\+Tous\+Les\+Bulletins (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_section_abfb639b9563b4f0b00f9f8cdc6e28e65}
+
+
+creation bulletin 
+
+\begin{DoxyReturn}{Renvoie}
+permet de creer l'integralité des bulletins pour la section mettra les notes de l'etudiant en fonction des differents controle et du coeff de la matiere la saisie d'un commentaire par eleve et matiere devra etre effectué 
+\end{DoxyReturn}
+\hypertarget{class_section_a00b708087544f4830f3d8e115753e028}{\index{Section@{Section}!get\+Section\+Nom@{get\+Section\+Nom}}
+\index{get\+Section\+Nom@{get\+Section\+Nom}!Section@{Section}}
+\subsubsection[{get\+Section\+Nom}]{\setlength{\rightskip}{0pt plus 5cm}string Section\+::get\+Section\+Nom (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_section_a00b708087544f4830f3d8e115753e028}
+
+
+accesseur de section nom 
+
+\hypertarget{class_section_af9bc407774a67c0ce65d831fcf2005b2}{\index{Section@{Section}!retour\+Application@{retour\+Application}}
+\index{retour\+Application@{retour\+Application}!Section@{Section}}
+\subsubsection[{retour\+Application}]{\setlength{\rightskip}{0pt plus 5cm}void Section\+::retour\+Application (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_section_af9bc407774a67c0ce65d831fcf2005b2}
+
+
+retour 
+
+\begin{DoxyReturn}{Renvoie}
+permet de retourner au pmenu de l'application 
+\end{DoxyReturn}
+\hypertarget{class_section_ad60532fac7868faad0b9b6ae413c860d}{\index{Section@{Section}!run@{run}}
+\index{run@{run}!Section@{Section}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void Section\+::run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_section_ad60532fac7868faad0b9b6ae413c860d}
+
+
+execution 
+
+\begin{DoxyReturn}{Renvoie}
+permet d'executer le code de la section et quil se repete 
+\end{DoxyReturn}
+\hypertarget{class_section_a1cfe7f586b0aa72fbdb4c66e3e760328}{\index{Section@{Section}!saisie\+Controlee\+Du\+Choix\+Utilisateur\+Secondaire@{saisie\+Controlee\+Du\+Choix\+Utilisateur\+Secondaire}}
+\index{saisie\+Controlee\+Du\+Choix\+Utilisateur\+Secondaire@{saisie\+Controlee\+Du\+Choix\+Utilisateur\+Secondaire}!Section@{Section}}
+\subsubsection[{saisie\+Controlee\+Du\+Choix\+Utilisateur\+Secondaire}]{\setlength{\rightskip}{0pt plus 5cm}char Section\+::saisie\+Controlee\+Du\+Choix\+Utilisateur\+Secondaire (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_section_a1cfe7f586b0aa72fbdb4c66e3e760328}
+
+
+controle saisie du choix 
+
+\begin{DoxyReturn}{Renvoie}
+permet de verifier que notre utilisateur a taper un choix qui est valide evite les erreurs de frappe 
+\end{DoxyReturn}
+
+
+\subsection{Documentation des données membres}
+\hypertarget{class_section_a387b69bedffb009e38d88cb272030bd4}{\index{Section@{Section}!mon\+Applic@{mon\+Applic}}
+\index{mon\+Applic@{mon\+Applic}!Section@{Section}}
+\subsubsection[{mon\+Applic}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Application}$\ast$ Section\+::mon\+Applic\hspace{0.3cm}{\ttfamily [private]}}}\label{class_section_a387b69bedffb009e38d88cb272030bd4}
+
+
+pointeur de l'application 
+
+\begin{DoxyReturn}{Renvoie}
+c'est un pointeur de la classe application qui porte le nom du nom de mon apllication 
+\end{DoxyReturn}
+\hypertarget{class_section_a4bb51bd5ac41f66e9935f8e1e46e1c45}{\index{Section@{Section}!section\+Nom@{section\+Nom}}
+\index{section\+Nom@{section\+Nom}!Section@{Section}}
+\subsubsection[{section\+Nom}]{\setlength{\rightskip}{0pt plus 5cm}string Section\+::section\+Nom\hspace{0.3cm}{\ttfamily [private]}}}\label{class_section_a4bb51bd5ac41f66e9935f8e1e46e1c45}
+
+
+nom de la section 
+
+\begin{DoxyReturn}{Renvoie}
+permet d'avoir une variable contenant le nom de la section 
+\end{DoxyReturn}
+\hypertarget{class_section_a878e894d29cdbecf573949260a3be53e}{\index{Section@{Section}!vect\+Etudiant@{vect\+Etudiant}}
+\index{vect\+Etudiant@{vect\+Etudiant}!Section@{Section}}
+\subsubsection[{vect\+Etudiant}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf Etudiant}$>$ Section\+::vect\+Etudiant\hspace{0.3cm}{\ttfamily [private]}}}\label{class_section_a878e894d29cdbecf573949260a3be53e}
+
+
+vecteur etudiant permet de recuperer les etudiants qui sont dans la sections 
+
+\hypertarget{class_section_a2c07b1c98085111f120142cbe087fd36}{\index{Section@{Section}!vect\+Evaluation@{vect\+Evaluation}}
+\index{vect\+Evaluation@{vect\+Evaluation}!Section@{Section}}
+\subsubsection[{vect\+Evaluation}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf Evaluation}$>$ Section\+::vect\+Evaluation\hspace{0.3cm}{\ttfamily [private]}}}\label{class_section_a2c07b1c98085111f120142cbe087fd36}
+
+
+vecteur evaluation permet de recupere les differentes evaluations qui ont été faites 
+
+\hypertarget{class_section_a189240ee9f2d58c63be99a7c65e9ec4f}{\index{Section@{Section}!vect\+Les\+Coeff@{vect\+Les\+Coeff}}
+\index{vect\+Les\+Coeff@{vect\+Les\+Coeff}!Section@{Section}}
+\subsubsection[{vect\+Les\+Coeff}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$int$>$ Section\+::vect\+Les\+Coeff\hspace{0.3cm}{\ttfamily [private]}}}\label{class_section_a189240ee9f2d58c63be99a7c65e9ec4f}
+
+
+coeff 
+
+\begin{DoxyReturn}{Renvoie}
+permet d'affecter un coeeficient à une matiere et cela en focntion des sections 
+\end{DoxyReturn}
+\hypertarget{class_section_ac7febeae3b093a5cac9e9df3a7474fe4}{\index{Section@{Section}!vect\+Les\+Matieres@{vect\+Les\+Matieres}}
+\index{vect\+Les\+Matieres@{vect\+Les\+Matieres}!Section@{Section}}
+\subsubsection[{vect\+Les\+Matieres}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf Matiere}$\ast$$>$ Section\+::vect\+Les\+Matieres\hspace{0.3cm}{\ttfamily [private]}}}\label{class_section_ac7febeae3b093a5cac9e9df3a7474fe4}
+
+
+vecteur matiere 
+
+\begin{DoxyReturn}{Renvoie}
+pour recuperer les matieres grace au pointeur 
+\end{DoxyReturn}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{section_8h}{section.\+h}\item 
+\hyperlink{section_8cpp}{section.\+cpp}\end{DoxyCompactItemize}

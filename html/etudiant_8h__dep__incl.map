@@ -1,0 +1,14 @@
+<map id="etudiant.h" name="etudiant.h">
+<area shape="rect" id="node2" href="$note_8h.html" title="note.h" alt="" coords="123,80,185,107"/>
+<area shape="rect" id="node4" href="$section_8h.html" title="section.h" alt="" coords="149,229,228,256"/>
+<area shape="rect" id="node11" href="$bulletin_8h.html" title="bulletin.h" alt="" coords="269,80,345,107"/>
+<area shape="rect" id="node13" href="$etudiant_8cpp.html" title="etudiant.cpp" alt="" coords="370,80,469,107"/>
+<area shape="rect" id="node3" href="$evaluation_8h.html" title="evaluation.h" alt="" coords="96,155,193,181"/>
+<area shape="rect" id="node10" href="$note_8cpp.html" title="note.cpp" alt="" coords="49,229,125,256"/>
+<area shape="rect" id="node5" href="$application_8h.html" title="application.h" alt="" coords="73,304,174,331"/>
+<area shape="rect" id="node8" href="$evaluation_8cpp.html" title="evaluation.cpp" alt="" coords="198,304,310,331"/>
+<area shape="rect" id="node9" href="$section_8cpp.html" title="section.cpp" alt="" coords="334,304,427,331"/>
+<area shape="rect" id="node6" href="$application_8cpp.html" title="application.cpp" alt="" coords="5,379,121,405"/>
+<area shape="rect" id="node7" href="$main_8cpp.html" title="main.cpp" alt="" coords="145,379,224,405"/>
+<area shape="rect" id="node12" href="$bulletin_8cpp.html" title="bulletin.cpp" alt="" coords="269,155,359,181"/>
+</map>
